@@ -4,6 +4,7 @@ import 'package:agora_rtc_engine_example/examples/advanced/media_player/media_pl
 import 'package:agora_rtc_engine_example/examples/advanced/process_video_raw_data/process_video_raw_data.dart';
 import 'package:agora_rtc_engine_example/examples/advanced/push_encoded_video_frame/push_encoded_video_frame.dart';
 import 'package:agora_rtc_engine_example/examples/advanced/push_video_frame/push_video_frame.dart';
+import 'package:agora_rtc_engine_example/examples/advanced/push_video_frame_video_track/push_video_frame_video_track.dart';
 import 'package:agora_rtc_engine_example/examples/advanced/rtmp_streaming/rtmp_streaming.dart';
 import 'package:agora_rtc_engine_example/examples/advanced/screen_sharing/screen_sharing.dart';
 import 'package:agora_rtc_engine_example/examples/advanced/send_multi_camera_stream/send_multi_camera_stream.dart';
@@ -78,6 +79,10 @@ final advanced = [
   {'name': 'AudioSpectrum', 'widget': const AudioSpectrum()},
   {'name': 'MediaRecorder', 'widget': const MediaRecorder()},
   {'name': 'PushVideoFrame', 'widget': const PushVideoFrame()},
+  {
+    'name': 'PushVideoFrameVideoTrack',
+    'widget': const PushVideoFrameVideoTrack()
+  },
   // {'name': 'PushAudioFrame', 'widget': const PushAudioFrame()},
   {'name': 'PushEncodedVideoFrame', 'widget': const PushEncodedVideoFrame()},
   {
